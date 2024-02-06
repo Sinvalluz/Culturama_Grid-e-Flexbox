@@ -58,6 +58,18 @@
     flex-grow: 1;
 }
 
+/* Rodape */
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo {
+    align-self: end;
+}
+
 @media (min-width: 720px) {
 
     /* Cabeçalho */
@@ -112,5 +124,10 @@
     }
     .menu__item:nth-child(5) {
         order: 2;
+    }
+    
+    .eventos__botao , .agenda__botao {
+        align-self: end;
+        justify-self: end;
     }
 }
